@@ -4,3 +4,4 @@ sklearn
 matplotlib
 rise
 jupyter_contrib_nbextensions
+jupyterthemes
