@@ -15,10 +15,10 @@ services:
       options:
         max-size: 50m
     ports:
-      - "8888:8888"
-      - "6006:6006"
+      - "8890:8890"
+      - "6090:6090"
     volumes:
       - ../:/home/devel/handson-ml
-    command: /opt/conda/bin/jupyter notebook --ip='0.0.0.0' --port=8888 --no-browser --allow-root
+    command: /opt/conda/bin/jupyter notebook --ip='0.0.0.0' --port=8890 --no-browser --allow-root
     env_file:
       - auth.env
