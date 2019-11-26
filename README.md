@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Brief projet fil-rouge classification données numériques: "Give Me Some Credit"
 
 
@@ -169,3 +170,6 @@ Créez un nouveau notebook, dans lequel vous calculerez une probabilité de déf
 [Louis Dorard](https://www.louisdorard.com/) © 2019 - Tous droits réservés
 
 Suivez-moi sur Twitter [@louisdorard](https://twitter.com/louisdorard)
+=======
+# house-prices-damien-laurent
+>>>>>>> d4189056dc1a5375194e34aee3041cfa9654969a
