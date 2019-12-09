@@ -1,0 +1,21 @@
+version: "3.0"
+services:
+  house-prices2:
+    build:
+      context: .
+    container_name: house-prices2
+    image: jupyter-image-custom
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
+    ports:
+      - 8888:8888
+      - 6006:6006
+    volumes:
+      - ../../:/usr/src/house-prices
+    env_file: 
+      - auth.env
+    command: /opt/conda/bin/jupyter notebook --notebook-dir=/usr/src/house-prices --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+    
